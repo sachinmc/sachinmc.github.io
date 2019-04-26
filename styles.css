@@ -187,7 +187,7 @@ span .comment{
  ***************************************************************/
 
 /* change the padding to fill the screen on mobile */
-@media screen and (max-width:600px){
+@media screen and (max-width:768px){
 
     #scroll-bar{
         background-color: #E50053;
