@@ -315,15 +315,14 @@ footer small a {
 }
 
 @media screen and (max-width: 900px) {
-  .intro  {
+  .intro {
     display: block;
-    object-fit: cover;
-    border-radius: 0;
   }
 
   img {
     margin: auto;
   }
+
 
   .intro .box {
     padding: 60px 0;
