@@ -1,71 +1,106 @@
 <html>
-  <head>
-    <title>Sachin Chandy</title>
-    <link rel="stylesheet" type="text/css" href="./styles.css" media="screen" charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+<head>
+  <title>Sachin Chandy | Software Engineer</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,500,900" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="images/logo.png">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
 
-  <body>
-    <div class="header-container">
-      <!-- Title -->
-      <div class="title">
-        <p> <a href="./index.html"> Sachin Chandy </a> </p>
+<body>
+  <header>
+    <h1>Sachin Chandy</h1>
+    <nav>
+      <a class="email" href="mailto:sachinmchandy@gmail.com"></a>
+      <a class="linkedin" href="https://www.linkedin.com/in/sachinchandy" target="_blank"></a>
+      <a class="github" href="https://github.com/sachinmc" target="_blank"></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="image">
+        <img src="images/portrait.png">
       </div>
+      <article>
+        <div class="box">
+          <h2>Hi, I'm Sachin</h2>
+          <p>I'm a software engineer located in London, UK.</p>
+          <p>
+            I'm the co-creator of <a href="https://github.com/nami-serverless/nami" target="_blank">Nami</a> — an open-source serverless framework for consuming webhooks at scale.
+          </p>
+          <p><a href="/#more">More about me</a></p>
+        </div>
+      </article>
+    </section>
 
-      <!-- Navbar -->
-      <nav>
-        <ul>
-          <!--
-          <li><a href="./blog-menu.html"> blog </a><span class="nav-pad">-</span></li>
-          <li><a href="./about.html"> about </a><span class="nav-pad">-</span></li>
-          <li><a href="./sachin_chandy_resume.pdf" target="tab">résumé/cv </a></li>
-        -->
-        </ul>
-      </nav>
-    </div>
-    <div>
-      <hr>
-    </div>
+    <section class="light" id="project">
+      <article>
+        <div class="box">
+          <h4>// Recent Project</h4>
 
+          <img class="mobile" src="images/app-mobile.png">
 
-    <!-- Bio -->
-    <div class="page-container">
-      <p>
-          <!--Hello, I'm <a href="https://twitter.com/<twitter_handle>" target="tab">@<twitter_handle</a> and-->
-          Hello, my name is <a href="https://www.linkedin.com/in/sachinchandy/">Sachin Chandy</a> and I'am a software engineer based in London, UK.
-          <br><br>
-          I'am the co-creater of <a href="https://github.com/nami-serverless/nami">Nami</a>,
-          a serverless framework for consuming webhooks at scale.
-          <br>
-          <br>
-          The <a href="https://github.com/nami-serverless/nami">Nami</a> framework helps deploy a system
-          that can handle bursty webhook traffic by setting up an API gateway with a FAAS platform
-          and a message broker with eventual storage of data in a data store.
-          <br>
-          <br>
-          You can try it out by downloading it from the <a href="https://www.npmjs.com/package/nami-serverless">npm</a> repository.
-          <!--
+          <h2>Nami</h2>
+          <p>
+            <a href="https://github.com/nami-serverless/nami" target="_blank">Nami</a> is an open-source serverless framework that helps deploy a system to
+            handle bursty webhook traffic by setting up an API gateway with a FAAS platform and a message broker with eventual storage of data in
+            a data store.
+          </p>
+          <p>
+            Nami is built using Node.js and AWS SDK. Cloud components are custom configured and deployed using AWS API's.
+          </p>
+          <p>
+            <a href="https://www.npmjs.com/package/nami-serverless" target="_blank">Try it out!</a>
+          </p>
+
+          <a href="" target="_blank">
+            <button>View case study (TBA)</button>
+          </a>
+        </div>
+      </article>
+      <div id="app">
+        <img src="images/nami.gif">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <article id="more">
+      <div class="box">
+        <h2>More About Me</h2>
+        <p>
+          I have experience with messaging queues, container-based deployments, asynchronous and distributed systems, event driven, microservices and serverless architectures.
+          I'm fluent with Ruby and JavaScript, and am proficient with SQL, React, NodeJS, Ruby on Rails, Docker, AWS Lambda's, SQS queues and MongoDB.
+        </p>
+        <p>
           I strive to apply scientific thought to problem solving, focus on building strong
           fundamentals and consider myself language and framework agnostic.
-          <br>
-          <br>
-          I have experience with messaging queues, container-based deployments, event driven, microservices and serverless architectures.
-          I'm fluent with Ruby and JavaScript, and am proficient with SQL, React, NodeJS, Ruby on Rails, Docker, AWS Lambda's, SQS queues and MongoDB.
-          <br>
-        -->
-      </p>
-    </div>
-    <hr>
+        </p>
+        <a href="/resume/sachin_chandy.pdf" target="_blank">
+          <button>Resume (TBA)</button>
+        </a>
+      </div>
+    </article>
 
-    <!-- Footer -->
-    <div class="footer">
-      <ul>
-        <li><i><a href="mailto:sachinmchandy@gmail.com?Subject=Hello" target="_top"> Email </a></i></li>
-        <li><i><a href="https://www.linkedin.com/in/sachinchandy" target="tab"> LinkedIn</a></i></li>
-        <li><i><a href="https://github.com/sachinmc" target="tab"> Github </a></i></li>
-        <!--<li><i><a href="https://twitter.com/<twitter_handle>" target="tab"> Twitter </a></i></li>!-->
-      </ul>
-    </div>
+    <article id="info">
+      <div class="box">
+        <h2>Sachin Chandy</h2>
+        <h4>// London, UK</h4>
+        <h2>Let's Connect</h2>
+        <p><a href="mailto:sachinmchandy@gmail.com">sachinmchandy@gmail.com</a></p>
+        <nav>
+          <a class="linkedin" href="https://linkedin.com/in/sachinchandy" target="_blank"></a>
+          <a class="github" href="https://github.com/sachinmc" target="_blank"></a>
+        </nav>
+      </div>
+    </article>
+  </footer>
 
-  </body>
+
+</body>
+
+
 </html>
