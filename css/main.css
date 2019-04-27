@@ -315,12 +315,14 @@ footer small a {
 }
 
 @media screen and (max-width: 900px) {
-  .intro img {
+  .intro  {
     display: block;
-    height: 100%;
-    width: 40vw;
     object-fit: cover;
     border-radius: 0;
+  }
+
+  img {
+    margin: auto;
   }
 
   .intro .box {
@@ -457,7 +459,7 @@ footer small a {
 
   .intro img {
     width: 100vw;
-    border-radius: 1000px;
+    height: 100vw;
   }
 
   .intro .box {
