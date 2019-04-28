@@ -323,7 +323,6 @@ footer small a {
     margin: auto;
   }
 
-
   .intro .box {
     padding: 60px 0;
   }
@@ -457,8 +456,8 @@ footer small a {
   }
 
   .intro img {
-    width: 100vw;
-    height: 100vw;
+    width: 70vw;
+    height: 70vw;
   }
 
   .intro .box {
