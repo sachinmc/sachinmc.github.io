@@ -107,6 +107,8 @@ footer {
   display: block;
   height: 50vw;
   width: 50vw;
+  padding: 15%;
+  margin-right: -50px;
 }
 
 h2 img {
@@ -301,6 +303,13 @@ footer small a {
     width: 90%;
   }
 
+  .intro img {
+    height: 50vw;
+    width: 50vw;
+    padding: 15%;
+    margin-right: -50px;
+  }
+
   .intro article {
     padding: 0;
   }
@@ -317,6 +326,15 @@ footer small a {
 @media screen and (max-width: 900px) {
   .intro {
     display: block;
+  }
+
+  .intro img {
+    border-radius: 1000px;
+    display: block;
+    height: 50vw;
+    width: 50vw;
+    padding: 5%;
+    margin-right: auto;
   }
 
   img {
@@ -458,6 +476,8 @@ footer small a {
   .intro img {
     width: 70vw;
     height: 70vw;
+    padding: 5%;
+    margin-bottom: -50px;
   }
 
   .intro .box {
