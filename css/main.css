@@ -40,6 +40,7 @@ nav a:hover {
   filter: contrast(50%);
 }
 
+a.resume { background-image: url("../images/resume.png"); }
 a.email { background-image: url("../images/email.png"); }
 a.linkedin { background-image: url("../images/linkedin.png"); }
 a.github { background-image: url("../images/github.png"); }
@@ -105,9 +106,9 @@ footer {
 .intro img {
   border-radius: 1000px;
   display: block;
-  height: 50vw;
-  width: 50vw;
-  padding: 15%;
+  height: 45vw;
+  width: 45vw;
+  padding: 20%;
   margin-right: -50px;
 }
 
@@ -306,7 +307,7 @@ footer small a {
   .intro img {
     height: 50vw;
     width: 50vw;
-    padding: 15%;
+    padding: 20%;
     margin-right: -50px;
   }
 
